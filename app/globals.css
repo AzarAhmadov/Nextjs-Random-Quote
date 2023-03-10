@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #ECF0F1;
+  padding: 0 10px;
+}
+
+.quote .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quote .container .content {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background: #ECF0F1;
+  padding: 60px 0px;
+  border-radius: 10px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.quote .container .content p {
+  font-size: 25px;
+  padding: 20px 30px;
+  color: #000;
+}
+
+.quote .container .content span {
+  border-top: 1px solid #00000022;
+  width: 100%;
+  color: brown;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.quote .container .content button {
+  cursor: pointer;
+  position: absolute;
+  bottom: -23px;
+  font-size: 38px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: purple;
+  border: none;
+  color: #fff;
+  width: max-content;
+  padding: 5px;
+}
+
+.quote .container .content .icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
